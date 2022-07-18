@@ -9,10 +9,10 @@ dotenv.config()
 const app = express()
 console.log(process.env.API_KEY)
 const client = new Client({
-    user: process.env.DB_USER || 'postgres',
-    host: process.env.DB_HOST || 'db.gvijimoervunywvdftgc.supabase.co',
-    database: process.env.DB_NAME || 'postgres',
-    password: process.env.DB_PASSWORD || 'seaport123456@seaport.com',
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_NAME,
+    password: process.env.DB_PASSWORD,
     port: 5432,
   })
 
