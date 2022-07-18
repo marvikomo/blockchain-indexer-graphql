@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+     "target": "es2015",
+     "emitDecoratorMetadata": true,
+     "experimentalDecorators": true,
+     "esModuleInterop": true,  
+     "resolveJsonModule": true, 
+     "module": "commonjs",
+     "outDir": "./dist/mrv",
+     "types": ["node"],
+     "moduleResolution": "Node",
+   }
+  }
